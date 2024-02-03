@@ -15,7 +15,6 @@ typedef struct data
 	int (*f)();
 } specifier;
 /* string library */
-int _putchar(char s);
 int _strcmp(char *s1, char *s2);
 int _strlen(char *s);
 int _putchar(char c);
@@ -23,4 +22,5 @@ int _printf(const char *format, ...);
 int (*get_form(char form))(va_list);
 int print_char(va_list list);
 int print_string(va_list list);
+int print_int(va_list list);
 #endif
