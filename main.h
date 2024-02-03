@@ -23,4 +23,5 @@ int (*get_form(char form))(va_list);
 int print_char(va_list list);
 int print_string(va_list list);
 int print_int(va_list list);
+int print_number(int num, int base);
 #endif
